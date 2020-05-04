@@ -1,14 +1,23 @@
-{
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
+{ 
+  "weather":{
+  "hourly":[
+          {"7AM": "22.0°C"},
+          {"9AM": "53.5°C"},
+          {"11AM":"25.7°C"},
+          {"2PM": "30.1°C"},
+          {"4PM": "34.0°C"} 
+          ],
+    
+  "Today": "41.27°",
+    
+    "daily":[{"Sunday": "30°/18°"},
+             {"Monday": "42°/24°"},
+             {"Tuesday": "32°/23°"},
+             {"Wednesday": "35°/24°"},
+             {"Thursday": "43°/34°"},
+             {"Friday": "44°/23°"},
+             {"Saturday": "22°/34°"}
+            ]
   }
+  
 }
